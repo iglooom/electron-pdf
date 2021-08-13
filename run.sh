@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm /tmp/.X0-lock
+
 export DISPLAY=:0
 
 # Start dbus
